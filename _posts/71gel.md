@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Sample post"
-date: 2022-01-01T00:00:00-05:00
+title: "71 ლარი"
+date: 2024-05-11T00:00:00-05:00
 draft: false
 ---
 
