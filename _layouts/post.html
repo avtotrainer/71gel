@@ -23,7 +23,9 @@ layout: default
       <span>on&nbsp;</span><time datetime="{% last_modified_at %}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>
     {% endif %}
   </div>
-
+  {% if page.image %}
+    <img src="assets/img/{{ page.image }}" alt="">
+  {% endif %}
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
 
